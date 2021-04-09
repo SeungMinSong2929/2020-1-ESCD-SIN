@@ -1,0 +1,16 @@
+.row-container{
+    border: none !important;
+}
+.login-voice{
+    background-color: var(--mainBlue);
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    transition: 0.5s all;
+    margin-bottom: 1rem;
+    &:hover{
+        color: white;
+        box-shadow: 0px 2px 10px black;
+        transform: translateY(2px);
+    }
+}
